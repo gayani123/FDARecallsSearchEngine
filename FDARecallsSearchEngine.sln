@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDARecallsSearchEngine", "FDARecallsSearchEngine.csproj", "{38F3C6B7-B02F-4AA9-93AD-5E0B5C633B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDARecallsSearchEngine.DataAccess", "..\FDARecallsSearchEngine.DataAccess\FDARecallsSearchEngine.DataAccess.csproj", "{2B4852C0-F6C1-43CD-A54B-23D8863BC6B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDARecallsSearchEngine.Business", "..\FDARecallsSearchEngine.Business\FDARecallsSearchEngine.Business.csproj", "{23F4463E-F61C-44D4-BF56-4CFD33260FE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDARecallsSearchEngine.Common", "..\FDARecallsSearchEngine.Common\FDARecallsSearchEngine.Common.csproj", "{BD3BAAEC-2BB1-4116-AA05-5CD4E6D3211A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDARecallsSearchEngine.Domain", "..\FDARecallsSearchEngine.Domain\FDARecallsSearchEngine.Domain.csproj", "{FA56AC07-63DE-48F1-8F97-005AEC1430B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDARecallsFinder.UI", "..\FDARecallsFinder.UI\FDARecallsFinder.UI.csproj", "{02B35862-0255-42A4-AAA3-461284A49243}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38F3C6B7-B02F-4AA9-93AD-5E0B5C633B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F3C6B7-B02F-4AA9-93AD-5E0B5C633B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F3C6B7-B02F-4AA9-93AD-5E0B5C633B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F3C6B7-B02F-4AA9-93AD-5E0B5C633B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B4852C0-F6C1-43CD-A54B-23D8863BC6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B4852C0-F6C1-43CD-A54B-23D8863BC6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B4852C0-F6C1-43CD-A54B-23D8863BC6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B4852C0-F6C1-43CD-A54B-23D8863BC6B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23F4463E-F61C-44D4-BF56-4CFD33260FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23F4463E-F61C-44D4-BF56-4CFD33260FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23F4463E-F61C-44D4-BF56-4CFD33260FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23F4463E-F61C-44D4-BF56-4CFD33260FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD3BAAEC-2BB1-4116-AA05-5CD4E6D3211A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD3BAAEC-2BB1-4116-AA05-5CD4E6D3211A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD3BAAEC-2BB1-4116-AA05-5CD4E6D3211A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD3BAAEC-2BB1-4116-AA05-5CD4E6D3211A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA56AC07-63DE-48F1-8F97-005AEC1430B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA56AC07-63DE-48F1-8F97-005AEC1430B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA56AC07-63DE-48F1-8F97-005AEC1430B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA56AC07-63DE-48F1-8F97-005AEC1430B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02B35862-0255-42A4-AAA3-461284A49243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02B35862-0255-42A4-AAA3-461284A49243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02B35862-0255-42A4-AAA3-461284A49243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02B35862-0255-42A4-AAA3-461284A49243}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E38B02BB-D770-4B68-9795-53905430860D}
+	EndGlobalSection
+EndGlobal
